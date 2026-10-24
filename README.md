@@ -1,7 +1,7 @@
 # FIX IT! Soluciones eléctricas — fixit-electricidad.com
 
 La web de FIX IT! electricidad (@fixitelectricidad), electricistas en La Plata y alrededores.
-Sitio estático servido por GitHub Pages en https://www.fixit-electricidad.com (dominio en `CNAME`; el apex y http redirigen a www).
+Sitio estático servido por GitHub Pages en https://fixit-electricidad.com (dominio en `CNAME`, sin www: así lo dejó el dueño en Settings → Pages el 24/10; www y http redirigen ahí).
 
 - **Esta es la fuente del sitio.** La vitrina de demos (`demos.hg-vl.com/demo-fixit/`) es una copia con `noindex`.
 - Contacto: solo WhatsApp 221 497-5090 (`CFG.whatsapp` en `index.html`), mail, Instagram y Facebook. Nada llama a una API.
