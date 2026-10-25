@@ -26,7 +26,10 @@
      (residencial / comercial / construcción), los consejos de la semana de 2019 y los lugares de cada trabajo
      (etiqueta de ubicación del post). Colocan las lámparas de 10Mil11 (post de 2021, @lamparas_10mil11).
      Sin precios (no publican), sin urgencias 24 hs (no las ofrecen), sin nombres de clientes ni de quien trabaja.
-     Solo contacto por WhatsApp: nada llama a una API. -->
+     Solo contacto por WhatsApp: nada llama a una API.
+     2026-10-24 (noche): fotos nuevas que pasó el dueño (img/r-*, 2024-2026, sin EXIF; a la del tablero rotulado se le recortó una
+     credencial con foto). La foto de portada (tira-24m-2) tiene el AUTO BORRADO CON IA a pedido del dueño (Nano Banana Pro),
+     pegado solo sobre la zona del auto: estructura, tira LED y piso son los de la foto original. -->
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Electrician","name":"FIX IT! Soluciones eléctricas",
  "description":"Tenemos una solución para cada problema de electricidad en tu hogar o comercio. Instalaciones, reparaciones, iluminación, tableros, porteros y seguridad.",
@@ -222,6 +225,7 @@ if(!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentEle
   .tr-k{font:600 12.5px/1.2 var(--d);letter-spacing:.12em;text-transform:uppercase;color:var(--azul)}
   .tr h3{font:700 20px/1.15 var(--d);margin-top:6px}
   .vacio{color:var(--mute)}
+  .grilla .mas{grid-column:1/-1;justify-self:center;margin-top:8px}
   @media (max-width:600px){.grilla{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tr-in{padding:10px 11px 12px}.tr h3{font-size:16.5px}.tr-k{font-size:11px}.tr-n{right:6px;bottom:6px;font-size:10.5px}}
 
   /* visor */
@@ -481,11 +485,11 @@ if(!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentEle
       <p>Desde cambiar una llave hasta la instalación eléctrica completa de una casa de dos plantas, con el cálculo de materiales incluido.</p>
     </header>
     <div class="tres">
-      <article class="serv rev"><img src="img/marca-residencial.jpg" width="1080" height="1080" alt="" loading="lazy"><div class="serv-in"><h3>Residencial</h3><ul>
+      <article class="serv rev"><img src="img/r-arana.jpg" width="1209" height="910" alt="Araña de cristal colocada por FIX IT!" loading="lazy" style="object-position:50% 70%"><div class="serv-in"><h3>Residencial</h3><ul>
         <li>Reparaciones eléctricas</li><li>Luminarias decorativas y artefactos, adentro y afuera</li><li>Lámparas LED y ventiladores de techo</li><li>Recableados y cableados especiales</li><li>Porteros eléctricos, con cámara y sensores de movimiento</li></ul></div></article>
-      <article class="serv rev"><img src="img/marca-comercial.jpg" width="1080" height="1080" alt="" loading="lazy"><div class="serv-in"><h3>Comercial</h3><ul>
+      <article class="serv rev"><img src="img/r-oficina.jpg" width="683" height="910" alt="Oficina con rieles, spots y canalización a la vista" loading="lazy" style="object-position:50% 30%"><div class="serv-in"><h3>Comercial</h3><ul>
         <li>Asesoramiento técnico en seguridad eléctrica</li><li>Instalaciones eléctricas</li><li>Térmicas y disyuntores</li><li>Mantenimiento</li><li>Iluminación de vidrieras, vitrinas y locales</li></ul></div></article>
-      <article class="serv rev"><img src="img/marca-proyectos.jpg" width="1080" height="1080" alt="" loading="lazy"><div class="serv-in"><h3>Construcción</h3><ul>
+      <article class="serv rev"><img src="img/r-canerias.jpg" width="1213" height="910" alt="Cañerías embutidas en una pared de ladrillo, en obra" loading="lazy"><div class="serv-in"><h3>Construcción</h3><ul>
         <li>Diseño y ejecución de la obra eléctrica</li><li>Cálculo de materiales y sugerencias innovadoras</li><li>Pilar, tablero principal y secundarios</li><li>Actualización de tableros</li><li>Cañerías para cámaras, alarma y datos</li></ul></div></article>
     </div>
     <h3 class="h-esp rev">Y lo especial <small>Trabajos que no hace cualquiera.</small></h3>
@@ -607,15 +611,15 @@ const CFG = {
   },
   // las térmicas del tablero: qué hacen sale de sus posts; «ojo» son sus propios consejos de la semana
   problemas: [
-    {id: 'corte', cinta: 'SE CORTA', amp: 'C20', t: 'Se corta la luz o salta la térmica', foto: 'tablero-14', pos: '50% 100%',
+    {id: 'corte', cinta: 'SE CORTA', amp: 'C20', t: 'Se corta la luz o salta la térmica', foto: 'r-tablero-08', pos: '50% 50%',
       hacemos: ['Buscamos la falla y la reparamos.', 'Térmicas y disyuntores nuevos, bien dimensionados.', 'Recableado donde haga falta.', 'Si tenés trifásica: selector de fases para pasarte a la que tiene carga.'],
       ojo: 'Revisar la instalación seguido previene cortocircuitos que pueden causar incendios. Si salta siempre con lo mismo enchufado, anotalo y contanos.'},
-    {id: 'enchufe', cinta: 'ENCHUFES', amp: 'C16', t: 'Un enchufe, llave o artefacto no anda', foto: 'supervision', pos: '50% 0%',
+    {id: 'enchufe', cinta: 'ENCHUFES', amp: 'C16', t: 'Un enchufe, llave o artefacto no anda', foto: 'r-pinza', pos: '50% 55%',
       hacemos: ['Reparaciones eléctricas en casa y comercio.', 'Tomas con conductor de 2,5 mm² y su conexión a tierra.', 'Llaves combinadas, dimmers y fotocélulas.'],
       ojo: 'No uses aparatos con cables pelados ni enchufes deteriorados, y no conectes varios al mismo tomacorriente. Si tenés que tocar un artefacto, desconectalo antes.'},
-    {id: 'luz', cinta: 'LUCES', amp: 'C10', t: 'Quiero iluminar distinto', foto: 'escalera-3', pos: '50% 0%',
+    {id: 'luz', cinta: 'LUCES', amp: 'C10', t: 'Quiero iluminar distinto', foto: 'r-cocina', pos: '50% 50%',
       hacemos: ['Luminarias decorativas, adentro y afuera.', 'Tira LED, dicroled y dimmers.', 'Colgantes, apliques y lámparas de época, restauradas.', 'Ventiladores de techo.']},
-    {id: 'obra', cinta: 'OBRA', amp: 'C32', t: 'Obra nueva o refacción', foto: 'gimnasio-2', pos: '50% 0%',
+    {id: 'obra', cinta: 'OBRA', amp: 'C32', t: 'Obra nueva o refacción', foto: 'r-tablero-04', pos: '50% 50%',
       hacemos: ['Diseño y ejecución de la obra eléctrica.', 'Cálculo de materiales y sugerencias.', 'Pilar, tablero principal y secundarios.', 'Cañerías para cámaras, alarma y datos.']},
     {id: 'seguridad', cinta: 'PORTERO', amp: 'C6', t: 'Portero, cámaras, cerco o acceso', foto: 'portero', pos: '50% 100%',
       hacemos: ['Porteros eléctricos, con cámara y sensores de movimiento.', 'Cámaras de seguridad y grabador.', 'Cerco eléctrico.', 'Control de acceso biométrico y cerraduras smart.']},
@@ -630,6 +634,21 @@ const CFG = {
   cats: {luz: 'Iluminación', obra: 'Instalaciones y obra', seg: 'Seguridad y accesos', com: 'Comercios y oficinas'},
   // trabajos: textos resumidos de cada post; lugar = etiqueta de ubicación del post (null si no tenía)
   trabajos: [
+    // recientes: fotos que pasó FIX IT! (2024-2026), sin post de Instagram; año = fecha de la foto, sin lugar (no lo sabemos)
+    {anio: 2026, lugar: null, cat: ['obra'], fotos: ['r-tablero-07', 'r-tablero-08', 'r-tablero-09', 'r-tablero-06', 'r-tablero-10', 'r-tablero-11', 'r-tablero-12', 'r-tablero-05', 'r-tablero-04', 'r-tablero-02', 'r-tablero-03', 'r-tablero-01', 'r-medidor'], t: 'Tableros, uno por uno', p: 'Trece tableros armados entre 2024 y 2026: térmicas y disyuntores por circuito y el cableado ordenado por colores.'},
+    {anio: 2025, lugar: null, cat: ['obra', 'com'], fotos: ['r-rotulado'], pos: '0% 50%', t: 'Cada circuito, con su nombre', p: 'Disyuntor, térmicas y contactor, con la lista pegada en la tapa: heladeras, iluminación, aire acondicionado, tomas y ventiladores de techo.'},
+    {anio: 2026, lugar: null, cat: ['obra'], fotos: ['r-bombas'], t: 'Tablero de bombas', p: 'Comando de dos bombas con luces de tablero encendido, bomba 1, bomba 2 y cisterna sin agua, y selector automático / apagado / manual.'},
+    {anio: 2025, lugar: null, cat: ['obra'], fotos: ['r-comando'], t: 'Comando manual y automático', p: 'Caja estanca con selector manual, pausa y automático, y luces piloto.'},
+    {anio: 2024, lugar: null, cat: ['luz', 'com'], fotos: ['r-cancha'], t: 'Reflectores para una cancha de tenis', p: 'Iluminación de una cancha de polvo de ladrillo con reflectores en columna.'},
+    {anio: 2025, lugar: null, cat: ['luz'], fotos: ['r-arana'], t: 'Araña de cristal', p: 'Colocación de una araña de cristal.'},
+    {anio: 2024, lugar: null, cat: ['luz'], fotos: ['r-bano'], t: 'Araña en el baño', p: 'Una araña dorada sobre un baño revestido en madera.'},
+    {anio: 2024, lugar: null, cat: ['luz', 'com'], fotos: ['r-oficina'], t: 'Rieles y spots en una oficina', p: 'Iluminación con rieles y spots negros, y la canalización a la vista, prolija, sobre la pared.'},
+    {anio: 2025, lugar: null, cat: ['luz'], fotos: ['r-cocina'], t: 'Luz bajo alacena', p: 'Tira LED bajo las alacenas y spots embutidos en una cocina.'},
+    {anio: 2025, lugar: null, cat: ['obra'], fotos: ['r-canerias'], t: 'Cañerías en obra', p: 'Canalización embutida en una pared de ladrillo, con las cajas de llaves y tomas en su lugar.'},
+    {anio: 2025, lugar: null, cat: ['luz', 'obra'], fotos: ['r-farola'], t: 'Farola de jardín', p: 'Colocación de una farola, con el cable por zanja.'},
+    {anio: 2025, lugar: null, cat: ['seg'], fotos: ['r-acceso'], t: 'Control de acceso', p: 'Teclado, cerradura magnética y fuente, listos para instalar.'},
+    {anio: 2026, lugar: null, cat: ['seg'], fotos: ['r-commax'], t: 'Portero Commax', p: 'Conexionado de un portero Commax.'},
+    // de su Instagram (2018-2024)
     {post: 'CG8cQoZnOfF', anio: 2020, lugar: null, cat: ['luz'], fotos: ['tira-24m-2', 'tira-24m-1'], t: 'Tira LED de 24 metros con dimmer', p: 'Decoración de una estructura con 24 metros lineales de tira LED y un dimmer para regular la intensidad de la luz.'},
     {post: 'CFk8IF7sghw', anio: 2020, lugar: null, cat: ['luz'], fotos: ['pergola-ip65'], t: 'Pérgola sin un cable a la vista', p: 'Luminarias IP65 bidireccionales en una pérgola con un trabajo de herrería de mucho detalle. El pedido: la instalación completamente oculta y con fotocontrol.'},
     {post: 'CE0OpUzs3Aj', anio: 2020, lugar: 'City Bell', cat: ['luz'], fotos: ['escalera-2', 'escalera-3', 'escalera-4', 'escalera-1'], t: 'Luz de cortesía en la escalera', p: '16 metros de tira LED 50-50 acompañando la escalera, de punta a punta.'},
@@ -799,7 +818,7 @@ $('#pasos').addEventListener('click', e => { const b = e.target.closest('.paso')
 ponerG(0);
 
 // ── 03 trabajos ──
-const FILTRO = {cat: 'todos', lugar: null};
+const FILTRO = {cat: 'todos', lugar: null, todos: false};
 const pintarFiltros = () => {
   const n = c => CFG.trabajos.filter(t => c === 'todos' || t.cat.includes(c)).length;
   $('#filtros').innerHTML = [['todos', 'Todos'], ...Object.entries(CFG.cats)].map(([k, v]) =>
@@ -815,13 +834,20 @@ $('#filtros').addEventListener('click', e => {
 });
 function pintarGrilla() {
   const lista = CFG.trabajos.map((t, i) => ({...t, i})).filter(t => FILTRO.lugar ? t.lugar === FILTRO.lugar : (FILTRO.cat === 'todos' || t.cat.includes(FILTRO.cat)));
-  $('#grilla').innerHTML = lista.length ? lista.map(t => `<button type="button" class="tr" data-i="${t.i}">
-    <span class="tr-img"><img src="img/${t.fotos[0]}.jpg" alt="" width="600" height="600" loading="lazy">
+  const corta = FILTRO.cat === 'todos' && !FILTRO.lugar && !FILTRO.todos && lista.length > 12;
+  const total = lista.length;
+  if (corta) lista.length = 12;
+  $('#grilla').innerHTML = (lista.length ? lista.map(t => `<button type="button" class="tr" data-i="${t.i}">
+    <span class="tr-img"><img src="img/${t.fotos[0]}.jpg" alt="" width="600" height="600" loading="lazy"${t.pos ? ` style="object-position:${t.pos}"` : ''}>
       ${t.vid ? '<span class="tr-n">▶ Video</span>' : t.fotos.length > 1 ? `<span class="tr-n">${t.fotos.length} fotos</span>` : ''}</span>
     <span class="tr-in"><span class="tr-k">${t.lugar ? esc(t.lugar) + ' · ' : ''}${t.anio}</span><h3>${esc(t.t)}</h3></span></button>`).join('')
-    : '<p class="vacio">No hay trabajos con ese filtro.</p>';
+    : '<p class="vacio">No hay trabajos con ese filtro.</p>')
+    + (corta ? `<button type="button" class="btn btn-line mas" id="ver-todos">Ver los ${total} trabajos</button>` : '');
 }
-$('#grilla').addEventListener('click', e => { const b = e.target.closest('.tr'); if (b) abrir(+b.dataset.i); });
+$('#grilla').addEventListener('click', e => {
+  if (e.target.closest('#ver-todos')) { FILTRO.todos = true; pintarGrilla(); return; }
+  const b = e.target.closest('.tr'); if (b) abrir(+b.dataset.i);
+});
 pintarFiltros(); pintarGrilla();
 
 // visor
@@ -837,7 +863,7 @@ function pintarVisor() {
       <span class="puntos">${t.fotos.map((_, j) => `<i class="${j === VIS.f ? 'on' : ''}"></i>`).join('')}</span>` : '');
   $('#v-txt').innerHTML = `<p class="k">${t.cat.map(c => CFG.cats[c]).join(' · ')}</p><h3>${esc(t.t)}</h3><p>${esc(t.p)}</p>
     <p style="font:600 14px/1.3 var(--d);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)">${t.lugar ? esc(t.lugar) + ' · ' : ''}${t.anio}</p>
-    <a class="ig" href="https://www.instagram.com/${t.reel ? 'reel' : 'p'}/${t.post}/" target="_blank" rel="noopener">Ver en Instagram ↗</a>
+    ${t.post ? `<a class="ig" href="https://www.instagram.com/${t.reel ? 'reel' : 'p'}/${t.post}/" target="_blank" rel="noopener">Ver en Instagram ↗</a>` : ''}
     <a class="btn btn-ama" href="${wa(`¡Hola FIX IT! Vi en la web el trabajo «${t.t}» y quería consultarles por algo parecido.`)}" target="_blank" rel="noopener" style="margin-top:6px">Quiero algo así</a>`;
 }
 const mover = d => { if (VIS.t.vid || VIS.t.fotos.length < 2) return; VIS.f = (VIS.f + d + VIS.t.fotos.length) % VIS.t.fotos.length; pintarVisor(); };
